@@ -39,6 +39,30 @@ h1 {
   flex-direction: column;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+}
+
+.form input {
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  font: inherit;
+}
+
+.form .btn {
+  display: inline-block;
+  padding: 0.5em 1.25em;
+  font-size: 1rem;
+}
+
 .sr-only {
   border: 0 !important;
   clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
